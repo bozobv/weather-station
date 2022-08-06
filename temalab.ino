@@ -137,7 +137,7 @@ void loop()
 
 void startWiFi() 
 { 
-  wifiMulti.addAP("Bocsa2", "Bodza1968");   
+  wifiMulti.addAP("Wifi", "Password");   
   
   Serial.println("Connecting");
   while (wifiMulti.run() != WL_CONNECTED) 
